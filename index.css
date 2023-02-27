@@ -58,11 +58,33 @@ nav a:hover{
     margin-left: 400px;
     
 }
-.images-page img{
-    height: 600px;
-    width: 210px;
-}
+
 /*page two styles*/
 .page-two{
     
+}
+.page-two-top{
+    display:flex;
+}
+/*page three > images page styles*/
+.images-page{
+    display: flex;
+    overflow: hidden;
+}
+.images-page img{
+    height: 600px;
+    width: 220px;
+}
+.images-page img:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.see-all hr{
+    width: 90%;
+    border: 2px solid orangered;
+}
+.see-all{
+    display: flex;
+    padding: 40px 40px 20px 0px;
 }
