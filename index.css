@@ -3,7 +3,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .hero{
-    background-image: url(/photos/pexels-cátia-matos-1072179.jpg);
+    background-image: url(./photos/pexels-cátia-matos-1072179.jpg);
     height: 600px;
     padding: 10px 10px 0px 10px;
     
